@@ -25,7 +25,7 @@ header  img {
     width: 100px;
     height: 100px;
     border-radius:28px;
-    border: 7px solid rgba(5, 102, 21, 0.979);
+    border: 7px solid rgba(12, 109, 28, 0.979);
  
 }
 
@@ -49,6 +49,14 @@ footer img {
     color: blue;
    
    
+}
+@media screen and (max-width: 720px) {
+
+
+ header img {
+  display: inline;
+ }
+
 }
  footer  {
     
@@ -91,7 +99,7 @@ footer img {
     section, aside {
       width: 50vh;
       padding:2vh;
-    
+      display: none;
       margin: 0%;
       
   
@@ -104,7 +112,7 @@ footer img {
   text-align: center;
   padding: 0%;
   margin: 0%;
-  display: inline-block;
+
   
  }
  @media screen and (max-width: 720px) {
@@ -116,7 +124,7 @@ footer img {
     border-radius: 30px;
     width: 50vh;
     height: 7vh;
-   
+  
 
   }
    }
@@ -135,7 +143,8 @@ footer img {
   img {
     padding: 0px;
     display: list-item;
-  
+
+
    
 
  
@@ -147,7 +156,7 @@ footer img {
 @media screen and (max-width: 720px) {
   footer img {
     border-radius: 50px;
-    width: 50%;
+    width: 60%;
     height: 100%;
     box-shadow:  3px 3px 3px rgb(73, 245, 159);
 
@@ -173,7 +182,7 @@ div.conteudo img{
 
  }
  div.fotos video{
-width: 300px;
+width: 30px;
   
   
    
@@ -181,3 +190,4 @@ width: 300px;
 
 
  
+  
