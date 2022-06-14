@@ -155,12 +155,14 @@ div.conteudo img{
 width: 30px;
   
  }
-   div.logo img{
+    div.logo img{
     width: 95%;
     border-radius: 30px;
     margin: 2%;
     padding: 1px;
-  
+    box-shadow:  4px 4px 4px rgb(30, 240, 124);
+    display: inline-block;
+        
     
   }
   @media screen and (min-width: 780px) {
