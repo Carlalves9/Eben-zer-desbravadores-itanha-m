@@ -81,14 +81,7 @@ footer img {
    
 
   }
-  .video {
-    display: contents;
-    width: 30vh;
-    height: 20vh;
-    padding: 50px;
-    margin: 50px;   
-    align-items: center;
-  }
+
 
   @media screen and (max-width: 720px) {
     section, aside {
