@@ -9,8 +9,9 @@ ul{
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding: 10px;
+    padding: 3px;
     font-family: Arial, Helvetica, sans-serif;
+
     
 }
 
@@ -31,6 +32,7 @@ header  img {
 
 .center {
     text-align: center;
+  
 }
 
 h1{
@@ -50,7 +52,7 @@ footer img {
    
    
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 780px) {
 
 
  header img {
@@ -81,7 +83,8 @@ footer img {
    
 
   }
-
+ 
+  
 
   @media screen and (max-width: 720px) {
     section, aside {
@@ -155,20 +158,28 @@ div.conteudo img{
 width: 30px;
   
  }
-    div.logo img{
+  div.logo img{
     width: 95%;
     border-radius: 30px;
     margin: 2%;
     padding: 1px;
     box-shadow:  4px 4px 4px rgb(30, 240, 124);
     display: inline-block;
-        
+   
+ 
+   
+    
+   
+ 
     
   }
   @media screen and (min-width: 780px) {
     div.logo img{
       display: none;
+     
+   
     }
   }
 
+ 
  
