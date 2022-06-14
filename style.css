@@ -1,7 +1,6 @@
 body  {
     background-color: black;
     color: rgb(240, 246, 252);
-    
 }
 
 ul{
@@ -17,7 +16,6 @@ ul{
 a {
     color: white;
     text-decoration: none;
-
 }
 
 header  img {
@@ -47,8 +45,7 @@ footer img {
     box-shadow:  3px 3px 3px rgb(30, 240, 124);
     display: inline-block;
     color: blue;
-   
-   
+    
 }
 @media screen and (max-width: 720px) {
 
@@ -66,13 +63,10 @@ footer img {
  }
   footer a :hover{ 
    
-   
     text-align: center;
     padding: 7px; 
     margin: 10px; 
    
- 
-     
   }
   .container {
     padding: 0px;
@@ -81,7 +75,6 @@ footer img {
 
   nav a:hover {
     color: rgb(9, 182, 38);
-   
 
   }
   .video {
@@ -102,8 +95,6 @@ footer img {
       display: none;
       margin: 0%;
       
-  
-    
     }
     
    }
@@ -124,7 +115,6 @@ footer img {
     border-radius: 30px;
     width: 50vh;
     height: 7vh;
-  
 
   }
    }
@@ -144,13 +134,7 @@ footer img {
     padding: 0px;
     display: list-item;
 
-
-   
-
- 
-
-  }
-  
+    }
 
 }
 @media screen and (max-width: 720px) {
@@ -169,8 +153,6 @@ div.conteudo img{
 
  margin: 3px;
  
-
-
   
  }
  div.fotos img {
@@ -183,11 +165,19 @@ div.conteudo img{
  }
  div.fotos video{
 width: 30px;
-  
-  
-   
+    
  }
 
+ }
+  div.logo img{
+    width: 100%; 
+    
+  }
+  @media screen and (min-width: 720px) {
+    div.logo img{
+      display: none;
+    }
+  }
 
  
   
