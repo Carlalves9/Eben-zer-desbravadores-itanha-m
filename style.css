@@ -173,7 +173,7 @@ width: 30px;
     width: 100%; 
     
   }
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 780px) {
     div.logo img{
       display: none;
     }
